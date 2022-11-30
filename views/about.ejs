@@ -1,0 +1,22 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="about content">
+    <h2>About the application</h2>
+    <p>This application aims at making it easy for you to work on your projects.</p>
+    <p>It reduces clutter on your working directory by centralising all libraries stored offline so you can use them on any project.</p>
+    <hr>
+    <h5>How to use it</h5>
+    <ol>
+      <li>Start the app. Run <code>node app</code> in the terminal where the app.js file is located.</li>
+      <li>Navigate to <a href="http://localhost:3200/">http://localhost:3200</a> and choose the library you want to use and copy the link.</li>
+      <li>Use the link as normal in your code e.g (<code>link rel="stylesheet" href="http://localhost:3200/dep/bootstrap-5.0.2/css"</code>).</li>
+    </ol>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
